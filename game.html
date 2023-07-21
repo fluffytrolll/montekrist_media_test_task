@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Casino - Royal Coins</title>
+      <link rel="stylesheet" type="text/css" href="./assets/css/reset.min.css" />
+      <link rel="stylesheet" type="text/css" href="./assets/css/index.min.css" />
+   </head>
+   <body>
+      <div class="bar bar_top">
+         <button class="button button_top button_icon button_rounded back" type="button">
+            <svg
+               class="button__icon"
+               xmlns="http://www.w3.org/2000/svg"
+               width="16"
+               height="19"
+               viewBox="0 0 16 19"
+               fill="none"
+            >
+               <g filter="url(#a)">
+                  <path
+                     d="M9.338 15a1 1 0 0 1-.78-.37l-4.83-6a1 1 0 0 1 0-1.27l5-6a1.001 1.001 0 1 1 1.54 1.28L5.798 8l4.32 5.36a1 1 0 0 1-.78 1.64Z"
+                     fill="#fff"
+                  />
+               </g>
+               <defs>
+                  <filter
+                     id="a"
+                     x="1.501"
+                     y="-.001"
+                     width="10.999"
+                     height="19.001"
+                     filterUnits="userSpaceOnUse"
+                     color-interpolation-filters="sRGB"
+                  >
+                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                     <feColorMatrix
+                        in="SourceAlpha"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                     />
+                     <feOffset dy="2" />
+                     <feGaussianBlur stdDeviation="1" />
+                     <feComposite in2="hardAlpha" operator="out" />
+                     <feColorMatrix
+                        values="0 0 0 0 0.200128 0 0 0 0 0.055243 0 0 0 0 0.308333 0 0 0 1 0"
+                     />
+                     <feBlend
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_2817_8"
+                     />
+                     <feBlend
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_2817_8"
+                        result="shape"
+                     />
+                     <feColorMatrix
+                        in="SourceAlpha"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                     />
+                     <feOffset dy="-1" />
+                     <feGaussianBlur stdDeviation="1" />
+                     <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                     <feColorMatrix
+                        values="0 0 0 0 0.7955 0 0 0 0 0 0 0 0 0 0.925 0 0 0 0.58 0"
+                     />
+                     <feBlend in2="shape" result="effect2_innerShadow_2817_8" />
+                  </filter>
+               </defs>
+            </svg>
+         </button>
+         <div class="image-indicator">
+            <img
+               class="image-indicator__img star"
+               src="./assets/img/svg/star.svg"
+               alt=""
+            />
+            <div class="indicator indicator_rounded">
+               <span class="indicator__score indicator__score_star" data-value="500/9000">
+                  500/9000
+               </span>
+            </div>
+         </div>
+         <div class="image-indicator">
+            <img
+               class="image-indicator__img coins"
+               src="./assets/img/svg/coins.svg"
+               alt=""
+            />
+            <div class="indicator indicator_rounded">
+               <span class="indicator__score indicator__score_coins" data-value="1000000">
+                  1000000
+               </span>
+            </div>
+         </div>
+      </div>
+      <div class="play-area">
+         <div class="roller">
+            <div class="roller__column" id="column1">
+               <img
+                  src="./assets/img/slots/r1.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="1"
+               />
+               <img
+                  src="./assets/img/slots/r2.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="2"
+               />
+               <img
+                  src="./assets/img/slots/r3.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="3"
+               />
+               <img
+                  src="./assets/img/slots/r4.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="4"
+               />
+               <img
+                  src="./assets/img/slots/r5.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="5"
+               />
+               <img
+                  src="./assets/img/slots/r6.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="6"
+               />
+               <img
+                  src="./assets/img/slots/r7.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="7"
+               />
+               <img
+                  src="./assets/img/slots/r8.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="8"
+               />
+               <img
+                  src="./assets/img/slots/r9.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="9"
+               />
+            </div>
+            <div class="roller__column" id="column2">
+               <img
+                  src="./assets/img/slots/r1.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="1"
+               />
+               <img
+                  src="./assets/img/slots/r2.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="2"
+               />
+               <img
+                  src="./assets/img/slots/r3.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="3"
+               />
+               <img
+                  src="./assets/img/slots/r4.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="4"
+               />
+               <img
+                  src="./assets/img/slots/r5.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="5"
+               />
+               <img
+                  src="./assets/img/slots/r6.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="6"
+               />
+               <img
+                  src="./assets/img/slots/r7.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="7"
+               />
+               <img
+                  src="./assets/img/slots/r8.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="8"
+               />
+               <img
+                  src="./assets/img/slots/r9.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="9"
+               />
+            </div>
+            <div class="roller__column" id="column3">
+               <img
+                  src="./assets/img/slots/r1.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="1"
+               />
+               <img
+                  src="./assets/img/slots/r2.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="2"
+               />
+               <img
+                  src="./assets/img/slots/r3.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="3"
+               />
+               <img
+                  src="./assets/img/slots/r4.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="4"
+               />
+               <img
+                  src="./assets/img/slots/r5.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="5"
+               />
+               <img
+                  src="./assets/img/slots/r6.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="6"
+               />
+               <img
+                  src="./assets/img/slots/r7.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="7"
+               />
+               <img
+                  src="./assets/img/slots/r8.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="8"
+               />
+               <img
+                  src="./assets/img/slots/r9.png"
+                  alt=""
+                  class="roller__img"
+                  width="105"
+                  height="68"
+                  data-id="9"
+               />
+            </div>
+         </div>
+      </div>
+      <div class="bar bar_bottom">
+         <div class="shifter">
+            <button class="button button_icon button_rounded decrement" type="button">
+               <svg
+                  class="button__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+               >
+                  <g filter="url(#filter0_di_2819_23)">
+                     <path
+                        d="M10.5928 6.6377V9.3623H5.40723V6.6377H10.5928Z"
+                        fill="white"
+                     />
+                  </g>
+                  <defs>
+                     <filter
+                        id="filter0_di_2819_23"
+                        x="3.40723"
+                        y="5.6377"
+                        width="9.18555"
+                        height="7.72461"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                     >
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix
+                           in="SourceAlpha"
+                           type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"
+                        />
+                        <feOffset dy="2" />
+                        <feGaussianBlur stdDeviation="1" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix
+                           type="matrix"
+                           values="0 0 0 0 0.200128 0 0 0 0 0.055243 0 0 0 0 0.308333 0 0 0 1 0"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in2="BackgroundImageFix"
+                           result="effect1_dropShadow_2819_23"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in="SourceGraphic"
+                           in2="effect1_dropShadow_2819_23"
+                           result="shape"
+                        />
+                        <feColorMatrix
+                           in="SourceAlpha"
+                           type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"
+                        />
+                        <feOffset dy="-1" />
+                        <feGaussianBlur stdDeviation="1" />
+                        <feComposite
+                           in2="hardAlpha"
+                           operator="arithmetic"
+                           k2="-1"
+                           k3="1"
+                        />
+                        <feColorMatrix
+                           type="matrix"
+                           values="0 0 0 0 0.7955 0 0 0 0 0 0 0 0 0 0.925 0 0 0 0.58 0"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in2="shape"
+                           result="effect2_innerShadow_2819_23"
+                        />
+                     </filter>
+                  </defs>
+               </svg>
+            </button>
+            <div class="indicator indicator_bet">
+               <span
+                  class="indicator__score indicator__score_gold bet"
+                  data-value="50000"
+               >
+                  50000
+               </span>
+            </div>
+            <button class="button button_icon button_rounded increment" type="button">
+               <svg
+                  class="button__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+               >
+                  <g filter="url(#filter0_di_2819_24)">
+                     <path
+                        d="M3.29297 6.81836H6.79883V3.30273H9.18164V6.81836H12.707V9.20117H9.18164V12.6973H6.79883V9.20117H3.29297V6.81836Z"
+                        fill="white"
+                     />
+                  </g>
+                  <defs>
+                     <filter
+                        id="filter0_di_2819_24"
+                        x="1.29297"
+                        y="2.30273"
+                        width="13.4141"
+                        height="14.3945"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                     >
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix
+                           in="SourceAlpha"
+                           type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"
+                        />
+                        <feOffset dy="2" />
+                        <feGaussianBlur stdDeviation="1" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix
+                           type="matrix"
+                           values="0 0 0 0 0.200128 0 0 0 0 0.055243 0 0 0 0 0.308333 0 0 0 1 0"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in2="BackgroundImageFix"
+                           result="effect1_dropShadow_2819_24"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in="SourceGraphic"
+                           in2="effect1_dropShadow_2819_24"
+                           result="shape"
+                        />
+                        <feColorMatrix
+                           in="SourceAlpha"
+                           type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"
+                        />
+                        <feOffset dy="-1" />
+                        <feGaussianBlur stdDeviation="1" />
+                        <feComposite
+                           in2="hardAlpha"
+                           operator="arithmetic"
+                           k2="-1"
+                           k3="1"
+                        />
+                        <feColorMatrix
+                           type="matrix"
+                           values="0 0 0 0 0.7955 0 0 0 0 0 0 0 0 0 0.925 0 0 0 0.58 0"
+                        />
+                        <feBlend
+                           mode="normal"
+                           in2="shape"
+                           result="effect2_innerShadow_2819_24"
+                        />
+                     </filter>
+                  </defs>
+               </svg>
+            </button>
+         </div>
+         <div class="indicator indicator_betwen indicator_win">
+            <span
+               class="indicator__score indicator__score_blue indicator__score_hide"
+               data-value="WIN"
+            >
+               WIN
+            </span>
+            <span
+               class="indicator__score indicator__score_gold indicator__score_hide win"
+               data-value="0"
+            >
+               0
+            </span>
+         </div>
+         <div class="actions">
+            <button class="button button_img button_blue auto" type="button">
+               <img class="button__img" src="./assets/img/svg/auto.svg" alt="" />
+            </button>
+            <button class="button button_img button_green spin" type="button">
+               <img class="button__img" src="./assets/img/svg/spin.svg" alt="" />
+            </button>
+         </div>
+      </div>
+      <script type="text/javascript" src="./assets/js/main.js"></script>
+   </body>
+</html>

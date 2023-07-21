@@ -1,0 +1,101 @@
+.button {
+   position: relative;
+   cursor: pointer;
+   border: none;
+   padding: 0px;
+
+   &:disabled {
+      filter: grayscale(0.7);
+      cursor: progress;
+   }
+
+   &_top {
+      position: absolute;
+      left: vw(32px);
+      top: 50%;
+      transform: translateY(-50%);
+   }
+
+   &_rounded {
+      border-radius: vw(42px);
+   }
+
+   &_img {
+      border-radius: vw(11px);
+      height: vw(46px);
+      min-width: vw(99px);
+   }
+
+   &__img {
+      height: vw(24px);
+      min-width: vw(40px);
+   }
+
+   &_blue {
+      border-radius: vw(11px);
+      background: linear-gradient(180deg, #70ff00 0%, #bd00ff 0.01%, #005484 100%);
+      box-shadow: 0px vw(4px) vw(4px) 0px rgba(36, 255, 0, 0.27),
+         0px vw(4px) vw(4px) 0px rgba(255, 247, 207, 0.65) inset,
+         0px vw(-6px) vw(4px) 0px rgba(0, 163, 255, 0.26) inset;
+
+      &::after {
+         position: absolute;
+         content: "";
+         top: 0px;
+         left: 0px;
+         width: 100%;
+         height: 100%;
+         border: vw(1px) solid #00a3ff;
+         border-radius: inherit;
+         z-index: 1;
+      }
+   }
+
+   &_green {
+      border-radius: vw(11px);
+      background: linear-gradient(180deg, #70ff00 0%, #008405 100%);
+      box-shadow: 0px vw(4px) vw(4px) 0px rgba(36, 255, 0, 0.27),
+         0px vw(4px) vw(4px) 0px rgba(255, 247, 207, 0.65) inset,
+         0px vw(-6px) vw(4px) 0px rgba(0, 255, 56, 0.26) inset;
+
+      &::after {
+         position: absolute;
+         content: "";
+         top: 0px;
+         left: 0px;
+         width: 100%;
+         height: 100%;
+         border: vw(1px) solid #ffb800;
+         border-radius: inherit;
+         z-index: 1;
+      }
+   }
+
+   &_icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: vw(42px);
+      min-height: vw(42px);
+      background: radial-gradient(90.6% 83.7% at 50% 16.3%, #ff00e5 6.04%, #9501ff 100%);
+      box-shadow: 0px vw(7px) vw(5px) 0px rgba(92, 15, 255, 0.32),
+         0px vw(4px) vw(1px) 0px rgba(241, 202, 255, 0.49) inset;
+
+      &::after {
+         position: absolute;
+         top: 0px;
+         left: 0px;
+         content: "";
+         border: vw(1px) solid rgba(255, 255, 255, 0.32);
+         border-radius: inherit;
+         width: 100%;
+         height: 100%;
+      }
+   }
+
+   &__icon {
+      width: vw(16px);
+      height: vw(16px);
+   }
+}

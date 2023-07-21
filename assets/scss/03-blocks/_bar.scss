@@ -1,0 +1,24 @@
+.bar {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   border-bottom: vw(2px) solid #913bff;
+   background: linear-gradient(180deg, #8000ff 0%, #9e00ff 40.42%, #61009c 100%);
+   box-shadow: 0px vw(4px) vw(4px) 0px rgba(0, 0, 0, 0.25),
+      0px vw(-11px) vw(19px) 0px rgba(56, 0, 112, 0.63) inset;
+   width: 100%;
+   height: vw(56px);
+
+   &_top {
+      align-items: center;
+      justify-content: center;
+      gap: vw(80px);
+   }
+
+   &_bottom {
+      align-items: center;
+      justify-content: space-between;
+      gap: vw(68px);
+      padding: 0px vw(38px);
+   }
+}

@@ -1,0 +1,14 @@
+@font-face {
+   font-family: "Impact";
+   src: url("../fonts/impact.ttf") format("truetype"),
+      url("../fonts/Impact.woff") format("woff"),
+      url("../fonts/Impact.woff2") format("woff2");
+}
+
+:root {
+}
+
+body {
+   font-family: "Impact", sans-serif;
+   user-select: none;
+}
